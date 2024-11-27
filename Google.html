@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Network Ninjas</title>
+  <style>
+    
+    /* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and Fonts */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #000;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #00ffcc;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header nav ul li {
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+  color: #00ffcc;
+}
+
+/* Hero Section */
+.hero {
+  height: 100vh;
+  background: linear-gradient(120deg, #000046, #1cb5e0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url('background-image.jpg'); /* Replace with an actual image */
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.cta-buttons .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+  border: 2px solid #00ffcc;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.cta-buttons .btn.primary {
+  background-color: #00ffcc;
+  color: #000;
+}
+
+.cta-buttons .btn:hover {
+  background-color: #fff;
+  color: #000;
+}      
+  </style>
+  
+ 
+  
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">Network Ninjas</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Mastering the Art of Seamless Connectivity</h1>
+      <div class="cta-buttons">
+        <a href="#services" class="btn">Learn More</a>
+        <a href="#contact" class="btn primary">Book a Consultation</a>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
